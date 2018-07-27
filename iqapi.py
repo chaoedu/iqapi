@@ -7,7 +7,7 @@ import time
 import logging
 
 from ctypes import CDLL, c_int, c_double, c_char_p, byref, c_bool, c_ulong, create_string_buffer, pointer
-from IQCtrl.constants import Constant
+from constants import Constant
 
 
 class IQError(RuntimeError):
